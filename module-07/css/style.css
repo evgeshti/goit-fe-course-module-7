@@ -232,6 +232,8 @@ h3 {
 .map {
   background-color: rgb(34, 34, 34);
   background-image: url(../img/Map.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .contact_title {
@@ -258,6 +260,7 @@ h3 {
   font-weight: 700;
   text-transform: uppercase;
   padding: 20px 0px 20px 20px;
+  outline: unset;
 }
 
 .contact_form:nth-last-child(n) {
