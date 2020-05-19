@@ -275,12 +275,27 @@ h3 {
 .form_input {
   display: flex;
   flex-direction: column;
-  width: 455px;
 }
 
-.form_text {
-  width: 455px;
-  border-radius: 3px;
+.form_1:required:focus:valid {
+  border: 3px solid green;
+}
+.form_1:required:focus:invalid {
+  border: 3px solid red;
+}
+
+.form_2:required:focus:valid {
+  border: 3px solid green;
+}
+.form_2:required:focus:invalid {
+  border: 3px solid red;
+}
+
+.form_3:required:focus:valid {
+  border: 3px solid green;
+}
+.form_3:required:focus:invalid {
+  border: 3px solid red;
 }
 
 .form_text_textarea {
@@ -290,6 +305,9 @@ h3 {
   text-transform: uppercase;
   padding: 20px 0px 0px 20px;
   resize: none;
+  width: 434px;
+  height: 225px;
+  border-radius: 3px;
 }
 
 .button {
